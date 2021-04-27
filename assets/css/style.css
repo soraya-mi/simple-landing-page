@@ -16,7 +16,7 @@ header {
 .logo {
   cursor: pointer;
   /*margin-right: auto;*/
-  margin-top: 10px;
+  margin-top: 5%;
 }
 .title {
   margin-right: auto;
@@ -99,13 +99,17 @@ header > button:hover {
 
 .content {
   display: flex;
+
   padding-inline: 50px;
   justify-content: space-between;
   color: #ffffff;
 }
 .hero-info {
+  margin-top: 10%;
   display: flex;
+  -ms-flex-align: center;
   flex-direction: column;
+  align-items: flex-start;
 }
 .hero-info h1 {
   font-size: 40px;
