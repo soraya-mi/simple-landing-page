@@ -1,8 +1,3 @@
-/* 
-CSS Global Styling
-Author: Anbuselvan Rocky
-*/
-
 * {
   /*box-sizing: border-box;*/
   margin: 0;
@@ -54,7 +49,7 @@ nav ul li {
 }
 
 nav ul li a {
-  /*transition: all 0.3s ease 0s;*/
+  transition: all 0.3s ease 0s;
 }
 
 nav ul li a:hover {
@@ -104,11 +99,14 @@ header > button:hover {
 
 .content {
   display: flex;
-  padding: 80px 10%;
+  padding-inline: 50px;
   justify-content: space-between;
   color: #ffffff;
 }
-
+.hero-info {
+  display: flex;
+  flex-direction: column;
+}
 .hero-info h1 {
   font-size: 40px;
 }
@@ -159,20 +157,25 @@ header > button:hover {
   background: #ffffff;
   color: #fa2828;
 }
+.main-image {
+  /* display: inline; */
+  margin-bottom: 5%;
+  /* position: relative; */
+  /* width: 50px;
+  height: auto; */
+  /* background: url("../images/bg2.jpg") no-repeat center center / cover; */
+}
+.main-image img {
+  width: 400px;
+}
 
-i.fa {
+/* i.fa {
   margin-right: 10px;
-}
-#main-image {
-  width: 500px;
-  /* margin-right:  auto;
-    margin-top: 0px;*/
-  height: auto;
-}
-
+} */
 .social-links {
+  position: inherit;
   /* display: flex; */
-  /* padding: 80px 10%; */
+  padding: 80px 10%;
   /* justify-content: space-between; */
   padding: 20px;
   /* margin-top: 140px; */
@@ -187,7 +190,7 @@ i.fa {
 .btn-social {
   padding: 9px 25px;
   border: none;
-  border-radius: 50px;
+  border-radius: 70px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -201,5 +204,9 @@ i.fa {
 }
 
 .bg-instagram {
-  background-color: #c13584;
+  background-color: #fc52b2;
+}
+
+.bg-twitter {
+  background-color: #5fb3e4;
 }
